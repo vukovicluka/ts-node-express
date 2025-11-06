@@ -1,6 +1,4 @@
 import express, { type Request, type Response, type Express } from "express";
-import { login } from "./service/login.service.ts";
-import "./db.ts"
 import v1 from "./routes/v1/index.ts";
 
 const app: Express = express();
